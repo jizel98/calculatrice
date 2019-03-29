@@ -8,3 +8,8 @@ function deux (){
     var valeur=document.getelementbyld("resultat").value;
     document.getelementbyld("resultat").value= valeur+x;
 }
+function trois () {
+    var x=document.getelementbyld("trois").value;
+    var valeur=document.getelementbyld("resultat").value;
+    document.getelementbyld("resultat").value= valeur+x;
+}
