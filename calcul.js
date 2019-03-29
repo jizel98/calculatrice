@@ -55,3 +55,6 @@ var fin=longeur-1;
 valeur= valeur.substring(0, fin);
 document.getelementbyld("resultat").value=valeur;
 }
+function c (){
+    document.getElementById("resultat").value="";
+}
