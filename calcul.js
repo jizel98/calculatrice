@@ -43,3 +43,8 @@ function neuf () {
     var valeur=document.getelementbyld("resultat").value;
     document.getelementbyld("resultat").value= valeur+x;
 }
+function egal () {
+    var valeur= document.getelementbyld("resultat").value;
+    var resultatfinal=eval(valeur);
+    document.getelementbyld("resultat").value= resultatfinal
+}
