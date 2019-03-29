@@ -46,5 +46,12 @@ function neuf () {
 function egal () {
     var valeur= document.getelementbyld("resultat").value;
     var resultatfinal=eval(valeur);
-    document.getelementbyld("resultat").value= resultatfinal
+    document.getelementbyld("resultat").value= resultatfinal;
+}
+function suppr(){
+    var valeur=document.GetElementById("resultat").value;
+var longeur=valeur.length;
+var fin=longeur-1;
+valeur= valeur.substring(0, fin);
+document.getelementbyld("resultat").value=valeur;
 }
