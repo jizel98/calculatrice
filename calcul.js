@@ -13,3 +13,33 @@ function trois () {
     var valeur=document.getelementbyld("resultat").value;
     document.getelementbyld("resultat").value= valeur+x;
 }
+function quatre () {
+    var x=document.getelementbyld("quatre").value;
+    var valeur=document.getelementbyld("resultat").value;
+    document.getelementbyld("resultat").value= valeur+x;
+}
+function cinq () {
+    var x=document.getelementbyld("cinq").value;
+    var valeur=document.getelementbyld("resultat").value;
+    document.getelementbyld("resultat").value= valeur+x;
+}
+function six () {
+    var x=document.getelementbyld("six").value;
+    var valeur=document.getelementbyld("resultat").value;
+    document.getelementbyld("resultat").value= valeur+x;
+}
+function sept () {
+    var x=document.getelementbyld("sept").value;
+    var valeur=document.getelementbyld("resultat").value;
+    document.getelementbyld("resultat").value= valeur+x;
+}
+function huit () {
+    var x=document.getelementbyld("huit").value;
+    var valeur=document.getelementbyld("resultat").value;
+    document.getelementbyld("resultat").value= valeur+x;
+}
+function neuf () {
+    var x=document.getelementbyld("neuf").value;
+    var valeur=document.getelementbyld("resultat").value;
+    document.getelementbyld("resultat").value= valeur+x;
+}
